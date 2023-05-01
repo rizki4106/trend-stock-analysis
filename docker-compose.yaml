@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+  stock-trend:
+    build: .
+    container_name: stock-trend
+    ports:
+      - 8501:8501
